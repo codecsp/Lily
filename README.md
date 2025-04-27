@@ -154,7 +154,7 @@ Key API endpoints:
 - `GET /security/rules`: Query security rules
 
 ## Architecture
-The detailed architecture documentation can be found in `docs/architecture.md`. It includes:
+The detailed architecture documentation can be found in [docs/architecture.md](docs/architecture.md). It includes:
 - System overview
 - Component diagrams
 - Data flow diagrams
@@ -162,7 +162,7 @@ The detailed architecture documentation can be found in `docs/architecture.md`. 
 - Scaling strategies
 
 ## Deployment
-Deployment instructions and considerations can be found in `docs/deployment.md`. It covers:
+Deployment instructions and considerations can be found in [docs/deployment.md](docs/deployment.md). It covers:
 - AWS resource setup
 - Environment configuration
 - Application deployment
