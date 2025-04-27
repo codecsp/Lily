@@ -3,7 +3,7 @@
 ## System Overview
 Atlan Lily is designed as a real-time metadata ingestion and consumption platform that enables near-real-time metadata flows between Atlan and various external systems. The architecture is built with scalability, reliability, and security as core principles.
 
-![System Architecture](diagrams/architecture.png)
+![System Architecture](diagrams/AtlanLilyArchitecture.png)
 
 ## Architecture Components
 
@@ -36,7 +36,7 @@ Atlan Lily is designed as a real-time metadata ingestion and consumption platfor
 - Storage Writer (Lambda)
 
 #### 2.2 Flow
-![Inbound Flow](diagrams/inbound_flow.png)
+![Inbound Flow](diagrams/inboundflow.png)
 
 1. Monte Carlo sends webhook events to API Gateway
 2. Webhook Receiver validates and forwards events to EventBridge
@@ -53,7 +53,7 @@ Atlan Lily is designed as a real-time metadata ingestion and consumption platfor
 - Downstream Integrator (Lambda)
 
 #### 3.2 Flow
-![Outbound Flow](diagrams/outbound_flow.png)
+![Outbound Flow](diagrams/outboundflow.png)
 
 1. DynamoDB Streams captures metadata changes
 2. Change Detection identifies relevant changes
@@ -64,7 +64,7 @@ Atlan Lily is designed as a real-time metadata ingestion and consumption platfor
 ## Data Models
 
 ### 1. Data Model Diagram
-![Data Model](diagrams/data_model.png)
+![Data Model](diagrams/datamodel.png)
 
 ### 2. Metadata Event Schema
 ```json
