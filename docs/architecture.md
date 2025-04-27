@@ -36,7 +36,7 @@ Atlan Lily is designed as a real-time metadata ingestion and consumption platfor
 - Storage Writer (Lambda)
 
 #### 2.2 Flow
-![Inbound Flow](diagrams/inboundflow.png)
+![Inbound Flow](diagrams/InboundFlow.png)
 
 1. Monte Carlo sends webhook events to API Gateway
 2. Webhook Receiver validates and forwards events to EventBridge
@@ -53,7 +53,7 @@ Atlan Lily is designed as a real-time metadata ingestion and consumption platfor
 - Downstream Integrator (Lambda)
 
 #### 3.2 Flow
-![Outbound Flow](diagrams/outboundflow.png)
+![Outbound Flow](diagrams/OutboundFlow.png)
 
 1. DynamoDB Streams captures metadata changes
 2. Change Detection identifies relevant changes
@@ -64,7 +64,7 @@ Atlan Lily is designed as a real-time metadata ingestion and consumption platfor
 ## Data Models
 
 ### 1. Data Model Diagram
-![Data Model](diagrams/datamodel.png)
+![Data Model](diagrams/DataModel.png)
 
 ### 2. Metadata Event Schema
 ```json
